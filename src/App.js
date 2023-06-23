@@ -1,23 +1,20 @@
-import logo from './logo.svg';
 import './App.css';
+import ThreeScene from './threejs/three-scene';
 
 function App() {
+
+  
+  
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div>
+      <div class="container">
+        <div class="content">
+          <h1>Unleashing A World of Potential</h1>
+          <p>Helping networks transform their operations through managed and field services.</p>
+        </div>
+      </div>
+      <ThreeScene/>
     </div>
   );
 }
