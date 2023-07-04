@@ -68,3 +68,28 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+@media only screen and (max-width: 600px) {
+	
+    h1{
+        font-size: 2rem;
+        line-height: 97%;
+        text-align: center;
+        width: 100%;
+    }
+
+    p{
+        font-size: 1.3rem;
+        text-align: center;
+        width: 100%;
+    }
+
+    h1, p{
+        flex-grow: 1;
+    }
+
+    .content{
+        display: flex;
+        flex-direction: column;
+    }
+}
